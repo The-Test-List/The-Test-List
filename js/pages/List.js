@@ -176,7 +176,7 @@ export default {
             </li>
      <li>
         <div class="type-title-sm">Skillset</div>
-        <p>{{ selectedLevel.ss || 'Wave' }}</p>
+        <p>{{ selectedLevel.ss }}</p>
       </li>
       </ul>
       
