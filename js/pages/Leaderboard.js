@@ -217,7 +217,7 @@ export default {
     async mounted() {
     const [leaderboard, err] = await fetchLeaderboard();
 
-    const excludedUsers = ["finni1505"];
+    const excludedUsers = [];
 
     const filteredLeaderboard = leaderboard
         .filter(entry => !excludedUsers.includes(entry.user))
