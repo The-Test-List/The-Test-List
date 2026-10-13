@@ -25,18 +25,6 @@ export default {
             <div class="page-leaderboard">
 
 
-                <div class="leaderboard-switch">
-                    <button
-                        class="active"
-                        @click="$router.push('/leaderboard')">
-                        Player Leaderboard
-                    </button>
-                
-                    <button
-                        @click="$router.push('/qualityboard')">
-                        Creator Leaderboard
-                    </button>
-                </div>
 
                 <div class="error-container">
                     <p class="error" v-if="err.length > 0">
@@ -109,7 +97,7 @@ export default {
                             </tr>
                         </table>
 
-                        <!-- ABOVE 150 -->
+                        <!-- Legacy -->
                         <h2 v-if="above150.length > 0">
                             Legacy Completions ({{ above150.length }})
                         </h2>
