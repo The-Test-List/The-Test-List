@@ -119,13 +119,8 @@ export async function fetchLeaderboard() {
         };
     });
 
-    // Sort by total score
     return [res.sort((a, b) => b.total - a.total), errs];
 }
-
-/* ===========================
-   Creator Leaderboard
-=========================== */
 
 const FACE_POINTS = {
     e1: 10,
