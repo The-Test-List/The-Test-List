@@ -262,6 +262,9 @@ export default {
                         Noclip accuracy is not allowed, even if you didn't die in it at all.
                     </p>
                     <p>
+                       I am also The best
+                    </p>
+                    <p>
           
                     </p>
                     <div class="og">
